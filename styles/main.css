@@ -1,0 +1,295 @@
+/* Carousel
+     ========================================================================== */
+.carousel {
+  background-image: url("../assets/img/Star-Wars-Battlefront-II-combat.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.carousel__content {
+  display: flex;
+  justify-content: flex-end;
+}
+.carousel__info {
+  padding: 300px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 164px;
+}
+
+.carousel__title {
+  color: white;
+}
+
+.carousel__title-firstname {
+  margin: 0 0;
+}
+
+.carousel__title-secondname {
+  margin: 0 0;
+}
+
+.carousel__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.carousel__buttons-1elem {
+  padding: 8px 21px;
+  background: #8dd83d;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+}
+
+.carousel__buttons-2elem {
+  padding: 8px 21px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Highlights
+     ========================================================================== */
+
+.highlights {
+  background: radial-gradient(100% 100% at 50% 0%, #686c6f 0%, #373a3c 100%);
+  text-align: center;
+  padding: 64px 0 162px;
+}
+
+.highlights__title {
+  margin: 0 auto;
+  color: white;
+}
+.highlights__title-text1 {
+  margin-top: 16px;
+  font-size: 48px;
+  line-height: 56px;
+}
+.highlights__title-text2,
+.title {
+  font-size: 36px;
+  line-height: 42px;
+}
+.highlights__body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-top: 43px;
+}
+.card {
+  text-align: left;
+  max-width: 320px;
+  background: #ffffff;
+  height: 420px;
+  width: 100%;
+  color: #435766;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #8dd83d;
+}
+.card__image {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 180px;
+  background: #fafafa;
+}
+
+.card__body {
+  padding: 25px 21px 27px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-items: stretch;
+}
+.card-title {
+  padding-bottom: 13px;
+}
+.card-text {
+  padding-bottom: 38px;
+  font-size: 24px;
+}
+.card-btn {
+  width: 100%;
+  background: #8dd83d;
+  padding: 19px 0;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+/* Games
+     ========================================================================== */
+.games {
+  background: url("/assets/img/callofdutymiddle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.games-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 29px;
+}
+
+.games__card {
+  margin: 193px 0 267px;
+  text-align: left;
+  max-width: 320px;
+  background: white;
+  height: 420px;
+  width: 100%;
+  color: #435766;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #8dd83d;
+  transition: 1s;
+}
+.games__card:hover {
+  transform: scale(1.1);
+  /* clip-path: polygon(
+    0 0%,
+    100% 0,
+    100% 100%,
+    7% 100%,
+    2% 94%,
+    93% 94%,
+    93% 81%,
+    7% 81%,
+    7% 100%,
+    0 100%
+  ); */
+}
+
+.games__card-body {
+  padding: 25px 21px 27px;
+  display: flex;
+  height: calc(100% - 180px);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.games__card-title {
+  padding-bottom: 13px;
+}
+.games__card-text {
+  font-size: 24px;
+}
+.games__card-btn {
+  width: 100%;
+  background: #8dd83d;
+  padding: 19px 0;
+  outline: 0;
+  border: none;
+  color: white;
+}
+.games-img {
+  width: 318px;
+  height: 180px;
+}
+
+/* Design-lab
+     ========================================================================== */
+
+.design-lab {
+  background: url("/assets/img/Rectangle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.design-lab-wrap {
+  background: radial-gradient(
+    100% 100% at 50% 0%,
+    rgba(193, 255, 127, 0.1) 0%,
+    rgba(141, 216, 61, 0.1) 100%
+  );
+}
+
+.design-lab__body {
+  text-align: left;
+  padding: 114px 0 145px;
+  max-width: 535px;
+}
+
+.design-lab__title {
+  font-size: 48px;
+  padding-bottom: 9px;
+}
+.design-lab__text {
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 37px;
+}
+.btn-primary {
+  display: flex;
+  align-items: center;
+}
+.design-btn {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  padding: 20px 61px 19px 52px;
+  border-radius: 4px;
+  margin-right: 15px;
+  color: white;
+  outline: none;
+  border: none;
+}
+.console-btn {
+  background: #8dd83d;
+  border-radius: 4px;
+  padding: 19px 23px 20px;
+  color: white;
+  outline: none;
+  border: none;
+}
+/* Youtube
+     ========================================================================== */
+
+#modal_form {
+  width: 1080px;
+  height: 650px; /* Рaзмеры дoлжны быть фиксирoвaны */
+  position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+  top: 45%; /* oтступaем сверху 45%, oстaльные 5% пoдвинет скрипт */
+  left: 40%; /* пoлoвинa экрaнa слевa */
+  margin-top: -275px;
+  margin-left: -350px; /* тут вся мaгия центрoвки css, oтступaем влевo и вверх минус пoлoвину ширины и высoты сooтветственнo =) */
+  display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+  opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+  z-index: 9999; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+  padding: 20px 10px;
+}
+
+/* Пoдлoжкa */
+#overlay {
+  z-index: 9998; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  position: fixed; /* всегдa перекрывaет весь сaйт */
+  background-color: #000; /* чернaя */
+  opacity: 0.98; /* нo немнoгo прoзрaчнa */
+  -moz-opacity: 0.98; /* фикс прозрачности для старых браузеров */
+  filter: alpha(opacity=80);
+  width: 100%;
+  height: 100%; /* рaзмерoм вo весь экрaн */
+  top: 0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+  left: 0;
+  cursor: pointer;
+  display: none; /* в oбычнoм сoстoянии её нет) */
+}
+
+/* Кнoпкa зaкрыть */
+.modal_close {
+  position: fixed;
+  top: 16px;
+  right: 26px;
+}
+#v1 {
+  width: 100%;
+  height: 100%;
+}

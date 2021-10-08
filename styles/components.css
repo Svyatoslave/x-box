@@ -1,0 +1,134 @@
+/* The Global 
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "HelveticaNeue", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
+}
+.container {
+  max-width: 1080px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* The Header 
+   ========================================================================== */
+
+.header {
+  z-index: 99;
+  position: sticky;
+  top: 0;
+  background: #373a3c;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__menu-search {
+  margin: 11px 0;
+  padding: 9px 0 9px 11px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-family: "HelveticaNeue", sans-serif;
+  font-size: 16px;
+  color: #435766;
+  background: #ffffff;
+  line-height: 21px;
+}
+
+.header__menu-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 2px;
+}
+.header__button-img {
+  padding: 0 5px;
+}
+
+.header__line {
+  background: #777777;
+  border: 2px solid #777777;
+}
+
+/* Footer
+  ========================================================================== */
+
+.footer {
+  background: #373a3c;
+  color: #ffffff;
+}
+
+.footer__wrapper {
+  padding: 58px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__title-link {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.title__link-text {
+  margin: 34px 0 29px 0;
+}
+.footer__title {
+  color: #7dd42f;
+  padding-bottom: 28px;
+}
+.footer__social {
+  display: flex;
+  gap: 20px;
+}
+
+.container--copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 19px 0 0;
+}
+.copyright_line {
+  opacity: 0.35;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  margin-bottom: 19px;
+}
+
+.copyright_elem {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
