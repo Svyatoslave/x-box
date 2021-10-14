@@ -63,34 +63,14 @@
                 <h2 class="carousel__title-secondname">Battlefront II</h2>
               </div>
               <div class="carousel__buttons">
-                <a
-                  class="carousel__buttons-1elem"
-                  onclick="show_video();"
-                  href="#"
+                <a id="trailer" class="button__primary" href="#"
                   >Watch trailer</a
                 >
-                <a class="carousel__buttons-2elem" href="#">Explore Games</a>
+                <a class="button__second" href="#">Explore Games</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="modal__trailer">
-        <div class="container">
-          <div id="modal_form">
-            <iframe
-              src="https://www.youtube.com/embed/_q51LZ2HpbE?autoplay=1"
-              frameborder="0"
-              allowfullscreen
-              id="v1"
-              allow="autoplay"
-              ;
-            ></iframe>
-            <span class="modal_close">x</span>
-          </div>
-        </div>
-
-        <div id="overlay"></div>
       </section>
 
       <section class="highlights">
@@ -269,6 +249,27 @@
         </div>
       </div>
     </footer>
+
+    <div id="modal-video" class="modal">
+      <div id="video" class="container modal__container">
+        <iframe
+          id="trailer"
+          allowfullscreen
+          width="100%"
+          height="600px"
+          frameborder="0"
+          src="https://www.youtube.com/embed/_q51LZ2HpbE?enablejsapi=1;"
+        ></iframe>
+      </div>
+
+      <button id="modal-video-close" type="button" class="modal__close">
+        <svg width="40" height="40" viewBox="0 0 520 520" fill="white">
+          <path
+            d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"
+          />
+        </svg>
+      </button>
+    </div>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/main.js"></script>
   </body>

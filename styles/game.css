@@ -1,0 +1,127 @@
+/* Carousel
+     ========================================================================== */
+.game-details {
+  padding-top: 99px;
+}
+.game-details .container {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.game-details__title {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 300;
+
+  color: #435766;
+  margin-bottom: 208px;
+}
+.game-detail__btn-top button {
+  padding: 13px 20px 18px 21px;
+}
+.game-detail__btn-top button:first-child {
+  padding: 13px 41px 18px;
+}
+
+.video {
+  margin: 103px auto 0;
+  text-align: center;
+  position: relative;
+}
+.video-img {
+  border-radius: 11px;
+}
+
+.video-btn {
+  position: absolute;
+  left: 39.57%;
+  right: 47.92%;
+  top: 35.77%;
+  bottom: 65.66%;
+  background: none;
+  box-shadow: 0px 2px 22px #373a3c;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.feature {
+  display: flex;
+  text-align: left;
+  width: 100%;
+}
+.feature-one {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.feature-one h2 {
+  display: block;
+}
+.feature img {
+  border-radius: 0px 0px 5px 5px;
+}
+.feature-one img {
+  display: block;
+}
+.feature__title {
+  max-width: 414px;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 300;
+  padding-top: 20px;
+
+  color: #435766;
+}
+.feature-two {
+  margin-top: 94px;
+}
+.feature-two h2 {
+  margin-left: 69px;
+}
+.technical-specifications {
+  text-align: center;
+  margin-top: 105px;
+  max-width: 100%;
+  width: 100%;
+}
+.technical-specifications .feature__title {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+.technical-specifications__body {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 47px;
+}
+.specifications_block {
+  display: flex;
+  flex-direction: column;
+  min-height: 140px;
+  max-width: 320px;
+  text-align: left;
+}
+.specifications_block p {
+  font-size: 21px;
+  line-height: 24px;
+
+  color: #435766;
+}
+
+.game-detail__btn-bottom {
+  text-align: center;
+  margin: 80px auto 109px;
+}
+.game-detail__btn-bottom .btn-explore {
+  padding: 13px 60px 18px;
+  margin-right: 16px;
+}
+.game-detail__btn-bottom .btn-watch {
+  padding: 13px 19px 18px 18px;
+  margin: 0;
+}
