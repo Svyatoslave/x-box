@@ -1,5 +1,45 @@
 /* Carousel
      ========================================================================== */
+
+.carousel {
+  background-image: url("../assets/img/callofdutymiddle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+.carousel__content {
+  display: flex;
+  justify-content: flex-end;
+}
+.carousel__info {
+  padding: 300px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 164px;
+}
+
+.carousel__title {
+  color: white;
+}
+
+.carousel__title-firstname {
+  margin: 0 0;
+}
+
+.carousel__title-secondname {
+  margin: 0 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 158;
+}
+
+.carousel__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+/* Game
+     ========================================================================== */
 .game-details {
   padding-top: 99px;
 }
@@ -17,13 +57,18 @@
   color: #435766;
   margin-bottom: 208px;
 }
+.game-detail__btn-top {
+  display: flex;
+  gap: 14px;
+}
 .game-detail__btn-top button {
   padding: 13px 20px 18px 21px;
 }
 .game-detail__btn-top button:first-child {
   padding: 13px 41px 18px;
 }
-
+/* Video
+     ========================================================================== */
 .video {
   margin: 103px auto 0;
   text-align: center;
@@ -45,7 +90,8 @@
   border-radius: 7px;
   cursor: pointer;
 }
-
+/* Feature
+     ========================================================================== */
 .feature {
   display: flex;
   text-align: left;
@@ -80,6 +126,8 @@
 .feature-two h2 {
   margin-left: 69px;
 }
+/* Technical
+     ========================================================================== */
 .technical-specifications {
   text-align: center;
   margin-top: 105px;
@@ -99,14 +147,15 @@
   align-items: flex-start;
   margin-top: 47px;
 }
-.specifications_block {
+.specifications__block {
   display: flex;
   flex-direction: column;
   min-height: 140px;
   max-width: 320px;
   text-align: left;
+  gap: 20px;
 }
-.specifications_block p {
+.specifications__block-text {
   font-size: 21px;
   line-height: 24px;
 
@@ -114,6 +163,8 @@
 }
 
 .game-detail__btn-bottom {
+  display: flex;
+  gap: 14px;
   text-align: center;
   margin: 80px auto 109px;
 }
