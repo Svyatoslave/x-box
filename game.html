@@ -14,7 +14,7 @@
     <header class="header">
       <div class="container">
         <div class="header__content">
-          <a href="#"
+          <a href="index.html"
             ><img
               class="header-logo"
               class="header__button-img"
@@ -54,44 +54,62 @@
       <hr class="header__line" />
     </header>
 
-    <section class="carousel">
-      <div class="container">
-        <div class="carousel__content">
-          <div class="carousel__info">
-            <div class="carousel__title">
-              <h1 class="carousel__title-firstname">Call of Duty: WWII</h1>
-              <h2 class="carousel__title-secondname">
-                Released on: 23/11/2017
-              </h2>
-            </div>
-            <div class="carousel__buttons">
-              <a id="trailer" class="button__primary" href="#">Order now</a>
-              <a class="button__primary" href="#">More Games</a>
+    <main class="main">
+      <section class="carousel">
+        <div class="container">
+          <div class="carousel__content">
+            <div class="carousel__info">
+              <div class="carousel__title">
+                <h1 class="carousel__title-firstname">Call of Duty: WWII</h1>
+                <h2 class="carousel__title-secondname">
+                  Released on: 23/11/2017
+                </h2>
+              </div>
+              <div class="carousel__button-group">
+                <button type="button" class="button button--primary" href="#">
+                  Order now
+                </button>
+                <button type="button" class="button button--primary" href="#">
+                  More Games
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <main class="main">
+      </section>
+
       <section class="game-details">
         <div class="container">
           <h1 class="game-details__title title">Call of Duty: WWII</h1>
 
           <div class="game-detail__btn-top">
-            <button class="button__primary">Order Now</button>
-            <button class="button__second">Technical Specifications</button>
+            <button type="button" class="button button--primary">
+              Order Now
+            </button>
+            <button type="button" class="button button--secondary">
+              Technical Specifications
+            </button>
           </div>
 
           <div class="video">
-            <img
-              src="/assets/img/game/call-of-duty-ww2-review_j23m.png"
-              alt=""
-              class="video-img"
-            />
-
-            <button class="video-btn">
-              <img src="/assets/img/game/Rectangle 4.svg" alt="" />
-            </button>
+            <iframe
+              id="video__trailer"
+              allowfullscreen
+              width="890px"
+              height="562px"
+              frameborder="0"
+              src="https://www.youtube.com/embed/HBmxGsR-97M?autoplay="
+            ></iframe>
+            <div class="video__placeholder">
+              <img
+                src="/assets/img/game/call-of-duty-ww2-review_j23m.png"
+                alt=""
+                class="video__img"
+              />
+              <button class="video-btn">
+                <img src="/assets/img/game/Rectangle 4.svg" alt="" />
+              </button>
+            </div>
           </div>
 
           <div class="feature feature-one">
@@ -134,8 +152,12 @@
           </div>
 
           <div class="game-detail__btn-bottom">
-            <button class="button__second">XBOX Consoles</button>
-            <button class="button__primary">Start streaming on mixer</button>
+            <button type="button" class="button button--secondary">
+              XBOX Consoles
+            </button>
+            <button type="button" class="button button--primary">
+              Start streaming on mixer
+            </button>
           </div>
         </div>
       </section>
@@ -192,6 +214,6 @@
       </div>
     </footer>
     <script src="./js/jquery-3.3.1.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/game.js"></script>
   </body>
 </html>

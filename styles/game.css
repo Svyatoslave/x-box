@@ -33,7 +33,7 @@
   font-weight: 158;
 }
 
-.carousel__buttons {
+.carousel__button-group {
   display: flex;
   flex-direction: row;
   gap: 13px;
@@ -74,10 +74,23 @@
   text-align: center;
   position: relative;
 }
-.video-img {
+.video__placeholder {
+  display: inline-block;
+  overflow: hidden;
+}
+.video__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: block;
   border-radius: 11px;
 }
-
+#video__trailer {
+  border-radius: 11px;
+}
 .video-btn {
   position: absolute;
   left: 39.57%;
@@ -89,7 +102,16 @@
   border: none;
   border-radius: 7px;
   cursor: pointer;
+  transition: 0.75s ease;
 }
+.video__placeholder:hover {
+  cursor: pointer;
+}
+
+.video__placeholder:hover .video-btn {
+  transform: scale(1.1);
+}
+
 /* Feature
      ========================================================================== */
 .feature {

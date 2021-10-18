@@ -1,9 +1,6 @@
 /* The Global 
    ========================================================================== */
 
-html {
-  scroll-behavior: smooth;
-}
 body {
   font-family: "HelveticaNeue", sans-serif;
   color: #ffffff;
@@ -27,7 +24,10 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-.button__primary {
+.button:hover {
+  cursor: pointer;
+}
+.button--primary {
   padding: 13px 21px;
   background: #8dd83d;
   border-radius: 4px;
@@ -35,13 +35,19 @@ body {
   color: white;
   border: none;
 }
-.button__second {
+.button--primary:hover {
+  background-color: #2dd42f;
+}
+.button--secondary {
   padding: 13px 21px;
-  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  background-image: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
   border-radius: 4px;
   text-decoration: none;
   color: white;
   border: none;
+}
+.button--secondary:hover {
+  background-image: linear-gradient(180deg, #4c4f52 0%, #373a3c 100%);
 }
 /* The Header 
    ========================================================================== */
